@@ -1,0 +1,272 @@
+body 
+{
+   background-color: darkslategrey; 
+   font-size: 28px;
+   text-align: center;
+   border-radius: 8px;
+   font-family: "IM Fell French Canon", serif;
+   font-weight: 400;
+   font-style: normal;
+}
+
+#container
+{
+    width: 940px;
+    background-color: seagreen;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid indigo;
+    padding: 5px;
+}
+
+h1
+{
+    padding: 20px;
+    letter-spacing: 2.5px;
+    text-transform: capitalize;
+    background-color: #cccc00;
+    margin-top: 0;
+}
+
+#intro
+{
+    background-color: crimson;
+    color: #fff;
+    letter-spacing: 8px;
+    border: 6px solid black;
+    border-radius: 8px;
+}
+
+p
+{
+    line-height: 160%;
+    padding: 20px;
+}
+
+#menu
+{
+    font-size: 20px;
+    background-color: gray;
+    padding-top: 5px;
+    margin-top: 70px;
+    height: 45px;
+    padding-bottom: 2px;
+    margin-bottom: 120px;
+}
+
+ol
+{
+    display: inline-block;
+}
+
+ol,ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ol > li
+{
+    float: left;
+    margin: 0 6px;
+    background: black;    
+    width: 168px;
+    color: white;
+    border-radius: 12px;
+    padding: 6px 4px;
+}
+
+ol > li:hover ul
+{
+    display: block;
+}
+
+ol > li:hover
+{
+   background-color: #101010; 
+}
+
+ul
+{
+    display: none;
+}
+
+ul > li
+{
+    margin-top: 15px;
+    padding: 6px 0;
+    border-radius: 12px;
+    transition: all .2s ease-in-out;
+}
+
+ul > li > a
+{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+ul > li:hover
+{
+    background-color: #333;
+}
+
+img
+{
+    width: 800px;
+    display: block;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.75;
+    transition: all 1.3s ease-in-out;
+}
+
+.photo:hover img
+{
+    transform: scaleX(1.17) scaleY(1.24);
+    border-radius: 12px;
+    opacity: 1;
+}
+
+.photo
+{
+    background-color: darkgreen;
+    padding: 70px 0;
+}
+
+.text
+{
+    text-align: justify;
+}
+
+.text > p
+{
+    line-height: 200%;
+}
+
+h2
+{
+    background-color: #734263;
+    margin: 0;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+main > article
+{
+    margin-bottom: 250px;
+}
+
+main > article:last-child
+{
+   margin-bottom: 0; 
+}
+
+#koniec
+{
+    padding: 20px;
+    letter-spacing: 2.5px;    
+    text-transform: capitalize;
+    background-color: #cccc00;
+    font-weight: 900;
+}   
+
+#previous
+{
+    margin-top: 100px;
+    padding-bottom: 30px;    
+    background-color: #6076dd;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    border: 6px solid black;
+}
+
+h3
+{
+    background-color: saddlebrown;
+    color: white;
+    margin-top: 0;
+    padding: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+#additional > aside > a
+{
+    color: white;
+    text-decoration: none;
+}
+
+#additional > aside > a:visited
+{
+    color: darkgrey;
+}
+
+h1,h2,h3
+{
+    font-family: "Kanit", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+}
+
+.link
+{
+    float: left;
+    width: 153.5px;
+    height: 150px;
+    border: 6px solid black;
+    border-radius: 12px;
+    line-height: 3;
+    text-shadow: 
+    2px 2px 0 white,
+    -2px 2px 0 white,
+    -2px -2px 0 white,
+    2px -2px 0 white;
+    font-size: 40px;
+    margin-right: 20px;
+    padding: 20px;
+    maegin: 0 auto;
+    transform: scaleX(-1);
+    opacity: 0.6;
+    transition: all 1.6s ease-in-out;
+}
+
+.link:hover
+{
+    transform: rotateX(360deg) scale(1.2);
+    opacity: 1;
+}
+
+#sociale > .link:first-child
+{
+    margin-left: 30px;
+}
+
+.link#yt
+{
+    background-color: #f94348;
+}
+
+.link#gplus
+{
+    background-color: #d95333;
+}
+
+.link#fb
+{
+    background-color: #4668b3;
+}
+
+.link#tw
+{
+    background-color: #3095d3;
+}
+
+#sociale
+{
+    margin-top: 94px;
+    background-color: gray;
+    padding: 50px 0;
+}
